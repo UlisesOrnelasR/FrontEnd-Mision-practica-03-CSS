@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    width: 95%;
+    height: 100%;
+   background-color: aliceblue;
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.nav.active {
+    background: #ffff;
+    opacity: 0.8;
+    padding: 20px;
+}
+.nav.active .logo,
+.nav.active a {
+    color: grey;
+}
+.nav.active a:hover {
+    background: grey;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    color: #434ECF;
+    font-weight:bolder;
+    padding-left: 170px;
+}
+.menu {
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 20px;
+}
+.menu li a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 20px;
+    transition:all 0.5s ease-out;
+}
+.menu li a:hover {
+    padding: 5px 10px;
+    background: #181D6D;
+    border-radius: 10px;
+    color: #ffff;
+}
+.scrol {
+    height: 100px;
+}
+p.tittle1 {
+    display: flex;
+    padding-left: 190px;
+    padding-bottom: 30px;
+    padding-top: 110px;
+    align-content: center;
+    width: 700px;
+    background-color:antiquewhite;
+    color: #181D6D;
+    font-size: 60px;
+    font-weight: 900;
+}
+p.text1 {
+    display: flex;
+    color: grey;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 190px;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 100px;
+    line-height: 35px;
+}
+.subtext {
+    display: flex;
+    width: 320px;
+    margin-left: 225px;
+    margin-top: 40px;
+    background-color:antiquewhite;
+    color: grey;
+}
+.subtext i{
+    display: flex;
+    background-color: #E6F56A;
+    margin-left: 30px;
+}
+.contenido {
+    float: left;
+}
+.subtext {
+    float: left;
+}
+.imagen img {
+    display: flex;
+    width: 600px;
+    height: 870px;
+    float:right;
+    margin-right: 100px;
+}
