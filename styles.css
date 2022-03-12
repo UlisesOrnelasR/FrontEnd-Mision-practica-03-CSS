@@ -205,8 +205,7 @@ p.text1 {
 .imagenesabajo {
     width: 95%;
     position: absolute;
-    top: 950px; left: 30px;
-    
+    top: 850px; left: 30px;
 }
 contenImg {
     display: flex;
@@ -215,9 +214,7 @@ contenImg {
 .contenImg img {  
     padding-left: 100px;
     width: 320px;
-    height: 100px;
-    background-color: antiquewhite;
-    
+    height: 100px; 
 }
 .contenImg img.sinovac {
     height: 50px;
@@ -231,9 +228,9 @@ contenImg {
 margin-bottom: 47px;
 }
 .contenImg img.moderna {
-    height: 200px;
-    margin-top: 40px;
-    
+    height: 200px; 
+    position: relative;
+    top: 30px; 
 }
 
 
