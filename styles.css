@@ -97,6 +97,7 @@ p.text1 {
     display: flex;
     background-color: #E6F56A;
     margin-left: 30px;
+    align-items: center;
 }
 .text2 {
     color: #181D6D;
@@ -115,12 +116,126 @@ p.text1 {
     float:right;
     margin-right: 100px;
 }
-.downtext {
-    display: flex;
-    width: 55%;
-    height: 150px;
+.subtittle {
+    position: absolute;
+    top:660px; left: 250px;
     background-color: antiquewhite;
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.subtittle p {
+    margin-left: 10px; 
+    color: #181D6D;
+}
+.subtittle i {
+    display: flex;
+    color: #181D6D;
+    align-items: center;
+}
+.downpag {
+    display: flex;
+    width: 60%;
+    height: 130px;
+    background-color: #F2F2F2;
     position: absolute;
     top: 700px; left: 250px;
     z-index:1;  
+    border-radius: 10px;
 }
+.textarriba {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.textarriba i {
+    margin-left: 70px;
+    color: #434ECF;
+}
+.textarriba p{
+    margin-left: 15px;
+    color: grey;
+}
+
+.textabajo {
+    display: flex;
+    font-size: 26px;
+    color: #181D6D;
+    font-weight: 600;
+}
+.textabajo ul {
+    flex-direction: row;
+    margin-top: 65px;
+    position: absolute;
+    top: 10px; left: 30px;
+    
+    
+}
+.textabajo li {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+.textabajo li.dos {
+    margin-left: 80px;
+}
+.textabajo li.tres {
+    margin-left: 70px;
+}
+.submit {
+    display: flex;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color:#434ECF;
+    margin-left: 65px;
+    margin-top: 35px;
+    height: 70px;
+    width: 170px;
+
+}
+.submit a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: 600;
+    margin-left: 54px;
+    margin-top: 18px;
+}
+.imagenesabajo {
+    width: 95%;
+    position: absolute;
+    top: 950px; left: 30px;
+    
+}
+contenImg {
+    display: flex;
+    
+}
+.contenImg img {  
+    padding-left: 100px;
+    width: 320px;
+    height: 100px;
+    background-color: antiquewhite;
+    
+}
+.contenImg img.sinovac {
+    height: 50px;
+    margin-bottom: 68px;
+}
+.contenImg img.astra {
+    height: 200px;
+    width: 400px;
+}
+.contenImg img.pfizer {
+margin-bottom: 47px;
+}
+.contenImg img.moderna {
+    height: 200px;
+    margin-top: 40px;
+    
+}
+
+
+
+
