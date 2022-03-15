@@ -536,6 +536,7 @@ margin-bottom: 47px;
 }
 .box3c1__list {
     list-style: none;
+    
 }
 .box3c2__list {
     list-style: none;
@@ -564,4 +565,12 @@ margin-bottom: 47px;
 }
 .box3c3 {
     margin-left: 70px;
+}
+.link__footer:hover {
+    background-color: grey;
+    color:#ffff;
+    border-radius: 10px;
+}
+.link__footer{
+    transition:all 0.5s ease-out;
 }
